@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>dev22 js01回目</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="all">
+    <!-- ここにはhtmlを記述 -->
+    <h1>ジャンケンゲーム</h1>
+    <!-- ここにはhtmlを記述 -->
+
+    <!-- このコメントの行より下にjsフォルダのtest.jsを読み込みましょう🤗 1.授業でやります!-->
+   <!-- jqueryが必ず先 -->
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+ 
+    <!-- 授業でやる箇所 ↓-->
+    <script src="js/test.js"></script>
+    <!-- 授業でやる箇所 ↑-->
+    <div class="pad" id="Rejan1"></div>
+    <div class="reflect-x"><img id="jankenpon" src="img/jan.jpg" width="50%" height=""></div>
+    <div class="pad" id="Result"></div>
+    <div><img id="jankenpon2" width="50%" ></div>
+  <div class="pad">
+    <button class="g__btn" onclick="R_Click(0);"> グー</button>
+    <button class="c__btn" onclick="R_Click(1);"> チョキ</button>
+    <button class="p__btn" onclick="R_Click(2);"> パー</button>
+  </div>
+    <div class="pad" id="Rejan2"></div>
+   
+  </body>
+</html>
